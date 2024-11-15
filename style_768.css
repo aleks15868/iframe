@@ -1,0 +1,15 @@
+ /* Медиа-запрос для экранов от 768px */
+ @media (max-width: 768px) {
+    .body{
+        margin: 23px 43px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1070px) {
+
+    .apartment_listing {
+        grid-template-columns: repeat(2, 1fr); /* Три колонки одинаковой ширины */
+        grid-template-rows: repeat(5, 1fr);    /* Три строки одинаковой высоты */
+    }
+}
